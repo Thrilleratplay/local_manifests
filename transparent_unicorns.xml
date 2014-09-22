@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- DO NOT USE!!!! These are personal preference. -->
+  <!-- NOTE: This is intended for Dirty Unicorns 7.9.  Names may need to be updated for other builds!!!! -->
+
+  <!--Skip wallpapers-->
+  <remove-project name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project name="platform/packages/wallpapers/HoloSpiral"  />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke"  />
+  <remove-project name="platform/packages/wallpapers/MusicVisualization"  />
+  <remove-project name="platform/packages/wallpapers/NoiseField"  />
+ 
+  <!--Do not want.  Various packages I am going to replace with other apps or just would not use.-->
+  <remove-project name="platform/packages/apps/VideoEditor"  />
+  <remove-project name="platform/packages/apps/Exchange" />
+  <remove-project name="packages_apps_Apollo" />
+  <remove-project name="packages_apps_Browser" />
+  <remove-project name="packages_apps_Email" />
+  <remove-project name="packages_apps_DU_about" />
+  <remove-project name="packages_apps_OmniSwitch" />
+
+  <!--Transparent Unicorns replacements -->
+  <remove-project name="vendor_du" />
+  <remove-project name="packages_apps_Settings" />
+  <project path="vendor/du" name="Thrilleratplay/vendor_du" remote="github" revision="TransparentUnicorn" />
+  <project path="packages/apps/Settings" name="Thrilleratplay/packages_apps_Settings" remote="github" revision="TransparentUnicorn" />
+
+  <!--CM Superuser-->
+  <project name="Superuser" path="external/koush/Superuser" remote="cm" revision="cm-11.0" />
+  <project name="Widgets" path="external/koush/Widgets" remote="cm" revision="cm-11.0" />
+
+  <!--Catlog-->
+  <project path="packages/apps/Catlog" name="Thrilleratplay/packages_apps_Catlog" remote="github" revision="master" />
+<!--
+  <project name="rovo89/XposedInstaller" path="packages/apps/XposedInstaller" remote="githubopensource"  revision="master" />
+  <project name="rovo89/XposedBridge" path="packages/apps/XposedBridge" remote="githubopensource"  revision="master" />
+  <project name="rovo89/Xposed" path="packages/apps/Xposed" remote="githubopensource"  revision="master" />
+-->
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- NOTE: This is intended for Dirty Unicorns 7.9.  Names may need to be updated for other builds!!!! --> 
+  <!-- Not needed for Google Nexus 5(Hammerhead).  If you are NOT building for Hammerhead, DO NOT USE THIS!!!! -->
+  <remove-project name="platform/external/arduino" />
+  <remove-project name="platform/tools/motodev" />
+  <remove-project name="platform/hardware/akm" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/samsung_slsi/exynos5" />
+  <remove-project name="platform/hardware/ti/omap3" />
+  <remove-project name="platform/hardware/ti/wlan" />
+  <remove-project name="platform/hardware/ti/wpan" />
+  <remove-project name="android_hardware_ti_omap4xxx" />
+  <remove-project name="android_hardware_qcom_wlan" />  
+</manifest>
