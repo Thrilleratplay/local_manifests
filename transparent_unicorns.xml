@@ -2,6 +2,7 @@
 <manifest>
   <!-- DO NOT USE!!!! These are personal preference. -->
   <!-- NOTE: This is intended for Dirty Unicorns 7.9.  Names may need to be updated for other builds!!!! -->
+  <remote  name="sf" fetch="http://git.code.sf.net" />
 
   <!--Skip wallpapers-->
   <remove-project name="platform/packages/wallpapers/Galaxy4" />
@@ -9,6 +10,39 @@
   <remove-project name="platform/packages/wallpapers/MagicSmoke"  />
   <remove-project name="platform/packages/wallpapers/MusicVisualization"  />
   <remove-project name="platform/packages/wallpapers/NoiseField"  />
+  <remove-project name="packages_apps_DU_walls" />
+
+  <!--remove chromium-->
+<!--
+  <remove-project name="android_external_chromium-org" />
+  <remove-project name="platform/external/chromium-libpac" />
+  <remove-project name="platform/external/chromium" />
+  <remove-project name="platform/external/chromium-trace" />
+  <remove-project name="platform/external/chromium_org/sdch/open-vcdiff" />
+  <remove-project name="platform/external/chromium_org/testing/gtest" />
+  <remove-project name="platform/external/chromium_org/third_party/WebKit" />
+  <remove-project name="platform/external/chromium_org/third_party/angle" />
+  <remove-project name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
+  <remove-project name="platform/external/chromium_org/third_party/freetype" />
+  <remove-project name="platform/external/chromium_org/third_party/icu" />
+  <remove-project name="platform/external/chromium_org/third_party/leveldatabase/src" />
+  <remove-project name="platform/external/chromium_org/third_party/libjingle/source/talk" />
+  <remove-project name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
+  <remove-project name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
+  <remove-project name="platform/external/chromium_org/third_party/mesa/src" />
+  <remove-project name="platform/external/chromium_org/third_party/opus/src" />
+  <remove-project name="platform/external/chromium_org/third_party/ots" />
+  <remove-project name="platform/external/chromium_org/third_party/skia/gyp" />
+  <remove-project name="platform/external/chromium_org/third_party/skia/include" />
+  <remove-project name="platform/external/chromium_org/third_party/skia/src" />
+  <remove-project name="platform/external/chromium_org/third_party/smhasher/src" />
+  <remove-project name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" />
+  <remove-project name="platform/external/chromium_org/tools/grit" />
+  <remove-project name="platform/external/chromium_org/tools/gyp" />
+  <remove-project name="platform/external/chromium_org/v8" />
+  <remove-project name="android_external_chromium_org_third_party_openssl" />
+  <remove-project name="frameworks_webview" />
+-->
  
   <!--Do not want.  Various packages I am going to replace with other apps or just would not use.-->
   <remove-project name="platform/packages/apps/VideoEditor"  />
@@ -18,6 +52,8 @@
   <remove-project name="packages_apps_Email" />
   <remove-project name="packages_apps_DU_about" />
   <remove-project name="packages_apps_OmniSwitch" />
+  <remove-project name="packages_apps_Camera2" />
+  <remove-project name="packages_apps_DeskClock" />
 
   <!--Transparent Unicorns replacements -->
   <remove-project name="vendor_du" />
@@ -31,9 +67,4 @@
 
   <!--Catlog-->
   <project path="packages/apps/Catlog" name="Thrilleratplay/packages_apps_Catlog" remote="github" revision="master" />
-<!--
-  <project name="rovo89/XposedInstaller" path="packages/apps/XposedInstaller" remote="githubopensource"  revision="master" />
-  <project name="rovo89/XposedBridge" path="packages/apps/XposedBridge" remote="githubopensource"  revision="master" />
-  <project name="rovo89/Xposed" path="packages/apps/Xposed" remote="githubopensource"  revision="master" />
--->
 </manifest>
