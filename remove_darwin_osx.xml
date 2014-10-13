@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- NOTE: This is intended for Dirty Unicorns 7.9.  Names may need to be updated for other builds!!!! --> 
+  <!-- NOTE: This is intended for Dirty Unicorns 7.9 - 8.0.  Names may need to be updated for other builds!!!! --> 
   <!-- Skip Darwin/OSX biuld repos.  Not needed if compiling in Linux -->
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />

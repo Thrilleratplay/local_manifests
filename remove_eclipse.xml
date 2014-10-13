@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- NOTE: This is intended for Dirty Unicorns 7.9.  Names may need to be updated for other builds!!!! --> 
+  <!-- NOTE: This is intended for Dirty Unicorns 7.9 - 8.0.  Names may need to be updated for other builds!!!! --> 
   <!-- Skip Eclipse repos.  I do not develop with Eclipse -->
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />

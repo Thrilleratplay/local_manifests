@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- NOTE: This is intended for Dirty Unicorns 7.9.  Names may need to be updated for other builds!!!! --> 
+  <!-- NOTE: This is intended for Dirty Unicorns 7.9 - 8.0.  Names may need to be updated for other builds!!!! --> 
   <!-- Not needed for Google Nexus 5(Hammerhead).  If you are NOT building for Hammerhead, DO NOT USE THIS!!!! -->
   <remove-project name="platform/external/arduino" />
   <remove-project name="platform/tools/motodev" />

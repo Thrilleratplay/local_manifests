@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- DO NOT USE!!!! These are personal preference. -->
-  <!-- NOTE: This is intended for Dirty Unicorns 7.9.  Names may need to be updated for other builds!!!! -->
+  <!-- NOTE: This is intended for Dirty Unicorns 7.9 - 8.0.  Names may need to be updated for other builds!!!! -->
   <remote  name="sf" fetch="http://git.code.sf.net" />
 
   <!--Skip wallpapers-->
@@ -43,7 +43,7 @@
   <remove-project name="android_external_chromium_org_third_party_openssl" />
   <remove-project name="frameworks_webview" />
 -->
- 
+
   <!--Do not want.  Various packages I am going to replace with other apps or just would not use.-->
   <remove-project name="platform/packages/apps/VideoEditor"  />
   <remove-project name="platform/packages/apps/Exchange" />
@@ -55,16 +55,22 @@
   <remove-project name="packages_apps_Camera2" />
   <remove-project name="packages_apps_DeskClock" />
 
-  <!--Transparent Unicorns replacements -->
+  <!-- ***************Transparent Unicorns replacements ****************** -->
+  <!-- Thrilleratplay/vendor_du -->
   <remove-project name="vendor_du" />
-  <remove-project name="packages_apps_Settings" />
   <project path="vendor/du" name="Thrilleratplay/vendor_du" remote="github" revision="TransparentUnicorn" />
+  <!-- Thrilleratplay/packages_apps_Settings -->
+  <remove-project name="packages_apps_Settings" />
   <project path="packages/apps/Settings" name="Thrilleratplay/packages_apps_Settings" remote="github" revision="TransparentUnicorn" />
 
+  <!-- ***************Transparent Unicorns Additions ****************** -->
   <!--CM Superuser-->
   <project name="Superuser" path="external/koush/Superuser" remote="cm" revision="cm-11.0" />
   <project name="Widgets" path="external/koush/Widgets" remote="cm" revision="cm-11.0" />
 
   <!--Catlog-->
   <project path="packages/apps/Catlog" name="Thrilleratplay/packages_apps_Catlog" remote="github" revision="master" />
+
+  <!--Online Nandroid script-->
+  <project path="external/OnlineNandroid" name="ameer1234567890/OnlineNandroid" remote="github" revision="master" />
 </manifest>
