@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- NOTE: This is intended for SlimLP.  Names may need to be updated for other builds!!!! -->
+
+  <!--Skip wallpapers-->
+  <remove-project name="platform/packages/wallpapers/Basic" />
+  <remove-project name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project name="platform/packages/wallpapers/HoloSpiral" />
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
+  <remove-project name="platform/packages/wallpapers/MusicVisualization" />
+  <remove-project name="platform/packages/wallpapers/NoiseField" />
+  <remove-project name="platform/packages/wallpapers/PhaseBeam" />
+</manifest>
+

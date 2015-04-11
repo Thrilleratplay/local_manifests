@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- NOTE: This is intended for SlimLP.  Names may need to be updated for other builds!!!! --> 
+  <!-- Skip Eclipse repos.  I do not develop with Eclipse -->
+
+  <remove-project name="platform/external/eclipse-basebuilder" />
+  <remove-project name="platform/external/eclipse-windowbuilder" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/prebuilts/eclipse-build-deps" />
+  <remove-project name="platform/prebuilts/eclipse-build-deps-sources" />
+  <remove-project name="platform/tools/adt/eclipse" />
+</manifest>

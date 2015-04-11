@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- DO NOT USE!!!! These are personal preference. -->
+  <!-- NOTE: This is intended for SlimLP  Names may need to be updated for other builds!!!! -->
+
+  <!--Do not want.  Various packages I am going to replace with other apps or just would not use.-->
+  <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="SlimRoms/android_external_google_google_play_services" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="SlimRoms/packages_apps_Browser" />
+  <remove-project name="SlimRoms/packages_apps_Camera2" /> 
+  <remove-project name="SlimRoms/packages_apps_Email" />
+  <remove-project name="SlimRoms/packages_apps_Exchange" />
+  <remove-project name="SlimRoms/packages_apps_DeskClock" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="SlimRoms/packages_apps_SlimCenter" />
+  <remove-project name="SlimRoms/packages_apps_SlimFileManager" />
+  <remove-project name="platform/external/eyes-free" />
+  <remove-project name="platform/packages/screensavers/Basic" />
+  <remove-project name="platform/packages/screensavers/PhotoTable" />
+  <remove-project name="platform/packages/screensavers/WebView" />
+  <remove-project name="platform/packages/providers/TvProvider" />
+  <remove-project name="SlimRoms/packages_providers_DownloadProvider" />
+  <remove-project name="SlimRoms/packages_apps_UnifiedEmail" />
+  <remove-project name="platform/packages/apps/VoiceDialer" />
+  <remove-project name="platform/external/svox" />
+
+<!--
+  <project path="packages/apps/PerformanceControl" name="OmniRom/android_packages_apps_PerformanceControl" remote="github" revision="lp5.0" />
+-->
+  <!--Online Nandroid script-->
+  <project path="external/OnlineNandroid" name="ameer1234567890/OnlineNandroid" remote="github" revision="master" />
+</manifest>

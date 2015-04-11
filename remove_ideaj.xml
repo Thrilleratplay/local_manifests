@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/tools/studio/cloud" />
+  <remove-project name="platform/tools/studio/translation" />
+  <remove-project name="platform/tools/adt/idea" />
+  <remove-project name="platform/tools/idea" />
+</manifest>
