@@ -9,12 +9,11 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="SlimRoms/packages_apps_Browser" />
   <remove-project name="SlimRoms/packages_apps_Camera2" /> 
-  <remove-project name="SlimRoms/packages_apps_Email" />
+<!--  <remove-project name="SlimRoms/packages_apps_Email" /> -->
   <remove-project name="SlimRoms/packages_apps_Exchange" />
   <remove-project name="SlimRoms/packages_apps_DeskClock" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
-  <remove-project name="SlimRoms/packages_apps_SlimCenter" />
   <remove-project name="SlimRoms/packages_apps_SlimFileManager" />
   <remove-project name="platform/external/eyes-free" />
   <remove-project name="platform/packages/screensavers/Basic" />
@@ -22,7 +21,7 @@
   <remove-project name="platform/packages/screensavers/WebView" />
   <remove-project name="platform/packages/providers/TvProvider" />
   <remove-project name="SlimRoms/packages_providers_DownloadProvider" />
-  <remove-project name="SlimRoms/packages_apps_UnifiedEmail" />
+ <!-- <remove-project name="SlimRoms/packages_apps_UnifiedEmail" /> -->
   <remove-project name="platform/packages/apps/VoiceDialer" />
   <remove-project name="platform/external/svox" />
 

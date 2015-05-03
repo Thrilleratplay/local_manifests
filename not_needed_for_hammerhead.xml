@@ -20,9 +20,10 @@
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="SlimRoms/hardware_qcom_bt" />
-  <remove-project name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  <remove-project name="SlimRoms/hardware_libhardware_legacy" />
-
+  <remove-project name="SlimRoms/packages_apps_SamsungServiceMode" />
+<!--  <remove-project name="SlimRoms/hardware_libhardware_legacy" /> -->
+  <remove-project name="SlimRoms/hardware_qcom_fm" />
+  <remove-project name="SlimRoms/android_external_ant-wireless_antradio-library" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/mips" />
@@ -35,6 +36,7 @@
   <remove-project name="device/generic/x86_64" />
   <remove-project name="platform/external/arduino" />
   <remove-project name="platform/external/google-tv-pairing-protocol" />
-  <remove-project name="platform/external/vixl" />
-  <remove-project name="platform/external/sfntly" />
+<!--  <remove-project name="platform/external/vixl" /> -->
+<!--  <remove-project name="platform/external/sfntly" /> -->
+  <remove-project name="platform/packages/apps/FMRadio" />
 </manifest>

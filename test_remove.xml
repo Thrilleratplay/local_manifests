@@ -3,15 +3,15 @@
   <remove-project name="platform/bootable/bootloader/legacy" />
   <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
   <remove-project name="platform/external/cmockery" />
-  <remove-project name="platform/external/gtest" />
-  <remove-project name="platform/external/guava" />
+<!--  <remove-project name="platform/external/gtest" /> -->
+<!--  <remove-project name="platform/external/guava" /> -->
   <remove-project name="platform/external/glide" />
   <remove-project name="platform/external/easymock" />
   <remove-project name="platform/tools/loganalysis" />
   <remove-project name="platform/tools/swt" />
   <remove-project name="platform/tools/tradefederation" />
-  <remove-project name="platform/tools/base" />
-  <remove-project name="platform/tools/build" />
+<!--  <remove-project name="platform/tools/base" />
+  <remove-project name="platform/tools/build" />-->
   <remove-project name="platform/tools/emulator" />
 <!-- maybe -->
 <!--

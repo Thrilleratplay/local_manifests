@@ -5,5 +5,5 @@
   <remove-project name="platform/docs/source.android.com" />
   <remove-project name="platform/developers/samples/android" />
   <remove-project name="device/sample" />
-  <remove-project name="platform/external/doclava" />
+ <!-- <remove-project name="platform/external/doclava" /> -->
 </manifest>
