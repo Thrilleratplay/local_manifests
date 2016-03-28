@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gh" fetch="https://github.com/" />
+
+  <!-- Add LG G3 D851 forked from CM (TODO: Switch to Team Horizon)-->
+  <project path="device/lge/d851" name="thrilleratplay/android_device_lge_d851" remote="gh" revision="make_dirty" />
+
+
+  <!-- Manually add Dirty Unicorns LG G3 dependencies-->
+  <project name="DirtyUnicorns/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="m-caf" />
+  <project name="DirtyUnicorns/android_external_connectivity" path="external/connectivity" remote="github" revision="m-caf" />
+  <project name="DirtyUnicorns/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="m-caf" />
+
+  <!-- Manually add Team Horizon LG G3 dependencies with D851 -->
+  <project name="TeamHorizon/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="mm" />
+  <project name="TeamHorizon/vendor_lge" path="vendor/lge" remote="github" revision="mm" />
+
+  <!-- Replace DU vendor -->
+  <remove-project name="android_vendor_du" />
+  <project path="vendor/du" name="thrilleratplay/android_vendor_du" remote="gh" revision="d851" />
+
+  <!-- Replace DU Framework Base -->
+<!--
+  <remove-project name="android_frameworks_base" />
+  <project path="frameworks/base" name="thrilleratplay/android_frameworks_base" remote="gh" revision="m" />
+-->
+  <!-- Replace DU Packages Apps Settings -->
+<!--
+  <remove-project name="android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="thrilleratplay/android_packages_apps_Settings" remote="gh" revision="m" />
+-->
+  <!-- Replace DU Build -->
+<!--
+  <remove-project name="android_build" />
+  <project path="build" name="thrilleratplay/android_build" remote="gh" revision="m" />
+-->
+
+<!--
+  <project path="system/extras/su" remote="gh" name="CyanogenMod/android_system_extras_su" revision="cm-13.0" />
+  <project name="wvengen/Superuser" path="external/koush/Superuser" remote="gh" revision="feature/try-fix-aosp-build" />
+  <project name="seSuperuser/Widgets" path="external/koush/Widgets" remote="gh" revision="master" />
+-->
+</manifest>

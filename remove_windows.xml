@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <!-- NOTE: This is intended for SlimLP  Names may need to be updated for other builds!!!! -->
-
-  <!-- I do not build on windows -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
-</manifest>
-
