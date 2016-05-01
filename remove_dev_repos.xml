@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/tools/base" groups="notdefault,tools" />
+  <remove-project name="platform/tools/build" groups="notdefault,tools" />
+  <remove-project name="platform/tools/loganalysis" groups="notdefault,tradefed" />
+  <remove-project name="platform/tools/swt" groups="notdefault,tools" />
+  <remove-project name="platform/tools/tradefederation" />
+  <remove-project name="platform/developers/build" />
+  <remove-project name="platform/developers/demos" />
+  <remove-project name="platform/developers/docs" />
+  <remove-project name="platform/developers/samples/android" />
+  <remove-project name="platform/external/droiddriver" />
+  <remove-project name="platform/external/easymock" />
+  <remove-project name="platform/external/eclipse-basebuilder" />
+  <remove-project name="platform/external/eclipse-windowbuilder" />
+  <remove-project name="platform/external/libvncserver" />
+  <remove-project name="platform/external/littlemock" />
+  <remove-project name="platform/external/nanohttpd" />
+  <remove-project name="platform/external/mockftpserver" />
+  <remove-project name="platform/external/mockito" />
+  <remove-project name="platform/external/mockwebserver" />
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/prebuilts/eclipse-build-deps" />
+  <remove-project name="platform/prebuilts/eclipse-build-deps-sources" />
+  <remove-project name="platform/tools/adt/eclipse" />
+  <remove-project name="platform/tools/adt/idea" />
+  <remove-project name="platform/tools/studio/cloud" />
+  <remove-project name="platform/tools/studio/translation" />
+  <remove-project name="platform/tools/emulator" />
+  <remove-project name="platform/tools/idea" />
+</manifest>
