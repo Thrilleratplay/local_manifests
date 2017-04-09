@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- F-Droid -->
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <project path="packages/apps/FDroidPrivilegedExtension" name="fdroid/privileged-extension" remote="gitlab" revision="master" />
+  <project path="platform/external/F-Droid" name="CopperheadOS/platform_external_F-Droid" remote="github" revision="nougat-mr1.1-release" />
+
+  <!-- Vendor Extra-->
+  <project path="vendor/extra" name="thrilleratplay/vendor_extra" remote="github" revision="LineageOS" />
+</manifest>
